@@ -1,3 +1,4 @@
-var user = { name: "piyush", age: 10 };
+"use strict";
+let user = { name: "piyush", age: 10 };
 console.log("Piyush");
 console.log(user.name);
