@@ -1,11 +1,13 @@
-"use strict";
-const User = {
-    name: "piyush",
-    email: "piyush@gmail.com",
-    isAvtive: true
+// const User = {
+//     name: "piyush",
+//     email: "piyush@gmail.com",
+//     isAvtive:true
+// }
+var myUser = {
+    _id: "12345",
+    name: "p",
+    email: "p@example.com",
+    isActive: false
 };
-function create({ name: string, isPaid: boolean }) { }
-createUser({ name: "piyush", isPaid: false });
-function createCourse() {
-    return { name: "reactjs", price: 388 };
-}
+myUser.email = "p@example".com;
+";

@@ -17,13 +17,47 @@
 // }
 
 
+// type User = {
+//        name: string;
+//        email: string;
+//        isActive: boolean;
+// } 
+
+
+// function createUser(user: User) {}
+
+
+
+
+
+
 type User = {
+       readonly_id: string;
        name: string;
        email: string;
        isActive: boolean;
-} 
+       credcardDetails?: number
+}
+
+let myUser: User = {
+       _id: "12345",
+       name: "p",
+       email: "p@example.com",
+       isActive: false
+}
+
+type cardNumber = {
+       cardnumber: string
+}
+
+type cardDate = {
+       cardDate: string
+}
+
+type credcardDetails = cardNumber & cardDate &{
+       cvv: number
+}
 
 
-function createUser(user: User) {}
+myUser.email = "p@example".com"
 
-export {}
