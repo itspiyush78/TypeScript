@@ -1,8 +1,9 @@
-var superHeros = [];
+"use strict";
+const superHeros = [];
 // const heroPower: number[] = [];
-var heroPower = [];
-var allUsers = [];
-var MLModels = [
+const heroPower = [];
+const allUsers = [];
+const MLModels = [
     [255, 255, 255],
     []
 ];
